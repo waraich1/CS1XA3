@@ -30,5 +30,8 @@ if [ "$a" -gt "$b"]; then
 elif ["$b" -gt "$a"]; then
     echo "There are more python code than haskell"
 else
+    echo "There are no haskell or python files"
 
- 
+fi
+
+}
