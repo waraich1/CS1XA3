@@ -9,4 +9,4 @@ Assignment 1 - Project Analyzer
 Additional features -
 
 1. Searches for a particular file.
-2. Checks wethere python files has more lines of codes or haskell files.
+2. Checks whether python files has more lines of codes or haskell files.
