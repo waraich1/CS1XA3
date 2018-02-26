@@ -13,8 +13,8 @@ https://github.com/barskyn
 
 3. Using Grep command we search for "#TODO" excluding  the todo.log and ProjectAnalyze.sh and place the results into todo.log.
 
-4. Using the command provided in hint first we basically search for haskell files and check them for errors and we move all errors to error.log
-Was getting things wrong just added the last part of the command rest everything was done by me
+4. Using the command provided in hint first we basically search for haskell files and check them for errors and we move all errors to error.logWas getting things wrong just added the last part of the command rest everything was done by me.
+
 https:/github.com/khannk1/CS1XA3  
 
 Additional features -
