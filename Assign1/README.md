@@ -15,7 +15,7 @@ https://github.com/barskyn
 
 4. Using the command provided in hint first we basically search for haskell files and check them for errors and we move all errors to error.logWas getting things wrong just added the last part of the command rest everything was done by me.
 
-https:/github.com/khannk1/CS1XA3  
+https://github.com/khannk1/CS1XA3  
 
 Additional features -
 
