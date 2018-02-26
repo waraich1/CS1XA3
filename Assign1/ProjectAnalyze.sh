@@ -1,6 +1,7 @@
 ###
 # Question 1
 # git status -uall shows individual files in untracked directories.
+git fetch
 git status -uall
 
 # Question 2
@@ -17,7 +18,7 @@ echo "todo.log created."
 
 # Question 4 
 # Using the command provided in hint first we basically search for haskell files and check them for errors and we move all errors to error.log
-# https://github.com/khannk1/CS1XA3	
+# https:/github.com/khannk1/CS1XA3	
 
 find -name "*.hs" -exec ghc -fno-code {} \;>>error.log 2>&1
 
