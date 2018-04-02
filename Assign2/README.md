@@ -7,7 +7,7 @@ CS1XA3 Assignment-2
 
 ## Elm-Web Application
 1)My Elm App has been inspired from a Udemy course.  
-2)It can be accessed via my website or [here](http://ugweb.cas.mcmaster.ca/~waraich/main.html.)
+2)It can be accessed via my website or [here](http://ugweb.cas.mcmaster.ca/~waraich/main.html)
 
 ## References:
 1) Special thanks to Anant Jain for an awesome README.md
