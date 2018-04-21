@@ -1,12 +1,17 @@
 module ExprPretty where
 
-import           ExprType
+import ExprType
 
-parens :: String -> String
-parens ss = "(" ++ ss ++ ")"
+combine :: String -> String
+combine ss = "(" ++ ss ++ ")"
 
 instance Show a => Show (Expr a) where
-  show (Mult e1 e2) = parens (show e1) ++ " !* " ++ parens (show e2)
-  show (Add e1 e2)  = parens (show e1) ++ " !+ " ++ parens (show e2)
-  show (Var ss)     = parens $ "var \"" ++ ss ++ "\""
-  show (Const x)    = parens $ "val " ++ show x
+  show (Add e1 e2) = combine (show e1) ++ " !+ " ++ combine (show e2)
+  show (Mult e1 e2) = combine (show e1) ++ " !* " ++ combine (show e2)
+  show (Var ss) = combine $ "var \"" ++ ss ++ "\""
+  show (Const x) = combine $ "val " ++ show x
+  show (Cos ss) = combine $ "cos " ++ show ss
+  show (Sin ss) = combine $ "sin " ++ show ss
+  show (Log ss) = combine $ "log " ++ show ss
+  show (Exp ss) = combine $ "exp " ++ show ss
+  show (Ln ss) = combine $ "ln " ++ show ss
