@@ -23,7 +23,7 @@ Build a math library in haskell for helping you with your Calculus homework. It 
 ---
 ## Part-2: ExprParser.hs
 
-* This module has been obtained and derived from Chitwan's code which can be browsed [here](https://github.com/sharmac6/CS1XA3)  
+* This module has been obtained and derived from Chitwan's code which can be browsed [here](https://github.com/sharmc6/CS1XA3)  
   
 ---
 ## Part-4: ExprTest.hs
