@@ -18,7 +18,7 @@ Build a math library in haskell for helping you with your Calculus homework. It 
 
 ## Part-1: ExprDiff.hs
 
-* This module has been obtained and derived from Nick's code which can be browsed [here](https://github.com/aksmaitn/CS1XA3).  
+* This module has been obtained and derived from Nick's code which can be browsed [here](https://github.com/aksamitn/CS1XA3).  
 
 ---
 ## Part-2: ExprParser.hs
