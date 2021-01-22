@@ -1,0 +1,153 @@
+\hypertarget{classtriangle__adt_1_1_triangle_t}{}\section{triangle\+\_\+adt.\+TriangleT Class Reference}
+\label{classtriangle__adt_1_1_triangle_t}\index{triangle\+\_\+adt.\+TriangleT@{triangle\+\_\+adt.\+TriangleT}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classtriangle__adt_1_1_triangle_t_a9837232c07fac634ba677a44fc3fee96}{\+\_\+\+\_\+init\+\_\+\+\_\+}
+\begin{DoxyCompactList}\small\item\em \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} constructor. \end{DoxyCompactList}\item 
+def \hyperlink{classtriangle__adt_1_1_triangle_t_a598e20e41e186231c9103a6249f9eeb6}{get\+\_\+sides} (self)
+\begin{DoxyCompactList}\small\item\em Gets all the lenght of sides of a triangle. \end{DoxyCompactList}\item 
+def \hyperlink{classtriangle__adt_1_1_triangle_t_aa7615cb08eac693134dd4022d984c8ec}{equal} (self, t)
+\begin{DoxyCompactList}\small\item\em Checks if two \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} objects are equal or not. \end{DoxyCompactList}\item 
+def \hyperlink{classtriangle__adt_1_1_triangle_t_aeb7d763a098e7d8d23b78c69d375154c}{perim} (self)
+\begin{DoxyCompactList}\small\item\em Calculates the perimeter of a \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object by adding all the lenghts of sides. \end{DoxyCompactList}\item 
+def \hyperlink{classtriangle__adt_1_1_triangle_t_a61a982c7a989dc80764cbf7c79ec048b}{area} (self)
+\begin{DoxyCompactList}\small\item\em Calculates the area of a \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object by using herons formula. \end{DoxyCompactList}\item 
+def \hyperlink{classtriangle__adt_1_1_triangle_t_a2edd73d4eb4aedae932161c1befb5c63}{is\+\_\+valid} (self)
+\begin{DoxyCompactList}\small\item\em Checks if \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object is valid. \end{DoxyCompactList}\item 
+def \hyperlink{classtriangle__adt_1_1_triangle_t_af33c895ca41f21cfc6441af8192a7998}{tri\+\_\+type} (self)
+\begin{DoxyCompactList}\small\item\em Checks what type of Triangle the \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object is. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtriangle__adt_1_1_triangle_t_a678fbcb3fdd76f4787bc3d8a437fc84f}\label{classtriangle__adt_1_1_triangle_t_a678fbcb3fdd76f4787bc3d8a437fc84f}} 
+{\bfseries s}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classtriangle__adt_1_1_triangle_t_a9837232c07fac634ba677a44fc3fee96}\label{classtriangle__adt_1_1_triangle_t_a9837232c07fac634ba677a44fc3fee96}} 
+\index{triangle\+\_\+adt\+::\+TriangleT@{triangle\+\_\+adt\+::\+TriangleT}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!triangle\+\_\+adt\+::\+TriangleT@{triangle\+\_\+adt\+::\+TriangleT}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def triangle\+\_\+adt.\+Triangle\+T.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{a }\end{DoxyParamCaption})}
+
+
+
+\hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} constructor. 
+
+Initializes a \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object by taking three sides as input. Assumption is made that all the inputs are of integer types. 
+\begin{DoxyParams}{Parameters}
+{\em a} & The length of first side of triangle. \\
+\hline
+{\em b} & The length of second side of triangle. \\
+\hline
+{\em c} & The length of third side of triangle. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classtriangle__adt_1_1_triangle_t_a61a982c7a989dc80764cbf7c79ec048b}\label{classtriangle__adt_1_1_triangle_t_a61a982c7a989dc80764cbf7c79ec048b}} 
+\index{triangle\+\_\+adt\+::\+TriangleT@{triangle\+\_\+adt\+::\+TriangleT}!area@{area}}
+\index{area@{area}!triangle\+\_\+adt\+::\+TriangleT@{triangle\+\_\+adt\+::\+TriangleT}}
+\subsubsection{\texorpdfstring{area()}{area()}}
+{\footnotesize\ttfamily def triangle\+\_\+adt.\+Triangle\+T.\+area (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Calculates the area of a \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object by using herons formula. 
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Triangle\+Not\+Valid} & Throws Triangle\+Not\+Valid if \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object is not valid. \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyReturn}{Returns}
+Area of \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtriangle__adt_1_1_triangle_t_aa7615cb08eac693134dd4022d984c8ec}\label{classtriangle__adt_1_1_triangle_t_aa7615cb08eac693134dd4022d984c8ec}} 
+\index{triangle\+\_\+adt\+::\+TriangleT@{triangle\+\_\+adt\+::\+TriangleT}!equal@{equal}}
+\index{equal@{equal}!triangle\+\_\+adt\+::\+TriangleT@{triangle\+\_\+adt\+::\+TriangleT}}
+\subsubsection{\texorpdfstring{equal()}{equal()}}
+{\footnotesize\ttfamily def triangle\+\_\+adt.\+Triangle\+T.\+equal (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{t }\end{DoxyParamCaption})}
+
+
+
+Checks if two \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} objects are equal or not. 
+
+param t \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object evaluated for equality. 
+\begin{DoxyExceptions}{Exceptions}
+{\em Triangle\+Not\+Valid} & Throws Triangle\+Not\+Valid if \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object is not valid. \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyReturn}{Returns}
+Returns true if the \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object is equal with the given \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object; false if not 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtriangle__adt_1_1_triangle_t_a598e20e41e186231c9103a6249f9eeb6}\label{classtriangle__adt_1_1_triangle_t_a598e20e41e186231c9103a6249f9eeb6}} 
+\index{triangle\+\_\+adt\+::\+TriangleT@{triangle\+\_\+adt\+::\+TriangleT}!get\+\_\+sides@{get\+\_\+sides}}
+\index{get\+\_\+sides@{get\+\_\+sides}!triangle\+\_\+adt\+::\+TriangleT@{triangle\+\_\+adt\+::\+TriangleT}}
+\subsubsection{\texorpdfstring{get\+\_\+sides()}{get\_sides()}}
+{\footnotesize\ttfamily def triangle\+\_\+adt.\+Triangle\+T.\+get\+\_\+sides (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Gets all the lenght of sides of a triangle. 
+
+\begin{DoxyReturn}{Returns}
+A tuple of lengths of sides in a sorted order. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtriangle__adt_1_1_triangle_t_a2edd73d4eb4aedae932161c1befb5c63}\label{classtriangle__adt_1_1_triangle_t_a2edd73d4eb4aedae932161c1befb5c63}} 
+\index{triangle\+\_\+adt\+::\+TriangleT@{triangle\+\_\+adt\+::\+TriangleT}!is\+\_\+valid@{is\+\_\+valid}}
+\index{is\+\_\+valid@{is\+\_\+valid}!triangle\+\_\+adt\+::\+TriangleT@{triangle\+\_\+adt\+::\+TriangleT}}
+\subsubsection{\texorpdfstring{is\+\_\+valid()}{is\_valid()}}
+{\footnotesize\ttfamily def triangle\+\_\+adt.\+Triangle\+T.\+is\+\_\+valid (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Checks if \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object is valid. 
+
+Checks validity of \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} by checking if the sum of any two sides would be less or equal to the third side. \begin{DoxyReturn}{Returns}
+Returns true if the \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object is valid; false if not. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtriangle__adt_1_1_triangle_t_aeb7d763a098e7d8d23b78c69d375154c}\label{classtriangle__adt_1_1_triangle_t_aeb7d763a098e7d8d23b78c69d375154c}} 
+\index{triangle\+\_\+adt\+::\+TriangleT@{triangle\+\_\+adt\+::\+TriangleT}!perim@{perim}}
+\index{perim@{perim}!triangle\+\_\+adt\+::\+TriangleT@{triangle\+\_\+adt\+::\+TriangleT}}
+\subsubsection{\texorpdfstring{perim()}{perim()}}
+{\footnotesize\ttfamily def triangle\+\_\+adt.\+Triangle\+T.\+perim (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Calculates the perimeter of a \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object by adding all the lenghts of sides. 
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Triangle\+Not\+Valid} & Throws Triangle\+Not\+Valid if \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object is not valid. \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyReturn}{Returns}
+Sum of all lengths of sides. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classtriangle__adt_1_1_triangle_t_af33c895ca41f21cfc6441af8192a7998}\label{classtriangle__adt_1_1_triangle_t_af33c895ca41f21cfc6441af8192a7998}} 
+\index{triangle\+\_\+adt\+::\+TriangleT@{triangle\+\_\+adt\+::\+TriangleT}!tri\+\_\+type@{tri\+\_\+type}}
+\index{tri\+\_\+type@{tri\+\_\+type}!triangle\+\_\+adt\+::\+TriangleT@{triangle\+\_\+adt\+::\+TriangleT}}
+\subsubsection{\texorpdfstring{tri\+\_\+type()}{tri\_type()}}
+{\footnotesize\ttfamily def triangle\+\_\+adt.\+Triangle\+T.\+tri\+\_\+type (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Checks what type of Triangle the \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object is. 
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Triangle\+Not\+Valid} & Throws Triangle\+Not\+Valid if \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object is not valid.\\
+\hline
+\end{DoxyExceptions}
+The triangle type is checked by applying different formulas for which Right,Scalene,Isosceles and Equilateral will hold true. Right Angle Triangle type objects have the highest precedency. \begin{DoxyReturn}{Returns}
+The type of \hyperlink{classtriangle__adt_1_1_triangle_t}{TriangleT} object. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\hyperlink{triangle__adt_8py}{triangle\+\_\+adt.\+py}\end{DoxyCompactItemize}

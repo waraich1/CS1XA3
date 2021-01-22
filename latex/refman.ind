@@ -1,0 +1,103 @@
+\begin{theindex}
+
+  \item {\+\_\+\+\_\+init\+\_\+\+\_\+}
+    \subitem {complex\+\_\+adt\+::\+ComplexT}, \hyperpage{7}
+    \subitem {triangle\+\_\+adt\+::\+TriangleT}, \hyperpage{8}
+
+  \indexspace
+
+  \item {add}
+    \subitem {complex\+\_\+adt.\+py}, \hyperpage{14}
+  \item {area}
+    \subitem {triangle\+\_\+adt\+::\+TriangleT}, \hyperpage{9}
+
+  \indexspace
+
+  \item {complex\+\_\+adt.\+ComplexT}, \hyperpage{7}
+  \item {complex\+\_\+adt.\+py}
+    \subitem {add}, \hyperpage{14}
+    \subitem {conj}, \hyperpage{14}
+    \subitem {div}, \hyperpage{14}
+    \subitem {equal}, \hyperpage{16}
+    \subitem {get\+\_\+phi}, \hyperpage{16}
+    \subitem {get\+\_\+r}, \hyperpage{16}
+    \subitem {imag}, \hyperpage{17}
+    \subitem {mult}, \hyperpage{17}
+    \subitem {real}, \hyperpage{17}
+    \subitem {recip}, \hyperpage{18}
+    \subitem {sqrt}, \hyperpage{18}
+    \subitem {sub}, \hyperpage{18}
+  \item {complex\+\_\+adt\+::\+ComplexT}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{7}
+  \item {conj}
+    \subitem {complex\+\_\+adt.\+py}, \hyperpage{14}
+
+  \indexspace
+
+  \item {div}
+    \subitem {complex\+\_\+adt.\+py}, \hyperpage{14}
+
+  \indexspace
+
+  \item {equal}
+    \subitem {complex\+\_\+adt.\+py}, \hyperpage{16}
+    \subitem {triangle\+\_\+adt\+::\+TriangleT}, \hyperpage{9}
+
+  \indexspace
+
+  \item {get\+\_\+phi}
+    \subitem {complex\+\_\+adt.\+py}, \hyperpage{16}
+  \item {get\+\_\+r}
+    \subitem {complex\+\_\+adt.\+py}, \hyperpage{16}
+  \item {get\+\_\+sides}
+    \subitem {triangle\+\_\+adt\+::\+TriangleT}, \hyperpage{9}
+
+  \indexspace
+
+  \item {imag}
+    \subitem {complex\+\_\+adt.\+py}, \hyperpage{17}
+  \item {is\+\_\+valid}
+    \subitem {triangle\+\_\+adt\+::\+TriangleT}, \hyperpage{10}
+
+  \indexspace
+
+  \item {mult}
+    \subitem {complex\+\_\+adt.\+py}, \hyperpage{17}
+
+  \indexspace
+
+  \item {perim}
+    \subitem {triangle\+\_\+adt\+::\+TriangleT}, \hyperpage{10}
+
+  \indexspace
+
+  \item {real}
+    \subitem {complex\+\_\+adt.\+py}, \hyperpage{17}
+  \item {recip}
+    \subitem {complex\+\_\+adt.\+py}, \hyperpage{18}
+
+  \indexspace
+
+  \item {sqrt}
+    \subitem {complex\+\_\+adt.\+py}, \hyperpage{18}
+  \item {src/complex\+\_\+adt.\+py}, \hyperpage{13}
+  \item {src/triangle\+\_\+adt.\+py}, \hyperpage{19}
+  \item {sub}
+    \subitem {complex\+\_\+adt.\+py}, \hyperpage{18}
+
+  \indexspace
+
+  \item {tri\+\_\+type}
+    \subitem {triangle\+\_\+adt\+::\+TriangleT}, \hyperpage{10}
+  \item {triangle\+\_\+adt.\+Tri\+Type}, \hyperpage{11}
+  \item {triangle\+\_\+adt.\+TriangleT}, \hyperpage{8}
+  \item {triangle\+\_\+adt\+::\+TriangleT}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{8}
+    \subitem {area}, \hyperpage{9}
+    \subitem {equal}, \hyperpage{9}
+    \subitem {get\+\_\+sides}, \hyperpage{9}
+    \subitem {is\+\_\+valid}, \hyperpage{10}
+    \subitem {perim}, \hyperpage{10}
+    \subitem {tri\+\_\+type}, \hyperpage{10}
+
+\end{theindex}
